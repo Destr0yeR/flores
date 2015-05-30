@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-4 logo-location">
     {{HTML::image('images/logo.png','Flores', array('class' => 'logo-header'))}}
     </div>
     <div class="col-sm-8">
