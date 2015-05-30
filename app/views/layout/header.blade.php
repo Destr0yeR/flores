@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-4 logo-location">
-    {{HTML::image('images/logo.png','Flores', array('class' => 'logo-header'))}}
+      {{HTML::image('images/logo.png','Flores', array('class' => 'logo-header'))}}
     </div>
     <div class="col-sm-8">
       <div class="navigation">
@@ -14,7 +14,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+              <a href="" class="home-icon"><i class="fa fa-home fa-6"></i></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

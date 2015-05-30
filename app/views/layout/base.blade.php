@@ -6,6 +6,7 @@
 	<!-- Latest compiled and minified CSS -->
 	{{HTML::style('css/bootstrap.css')}}
 	{{HTML::style('css/main.css')}}
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<!-- Optional theme -->
 	{{HTML::style('css/bootstrap-theme.min.css')}}
 	<!-- Latest compiled and minified JavaScript -->

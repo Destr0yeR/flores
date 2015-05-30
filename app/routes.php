@@ -17,3 +17,6 @@ Route::get('/', function()
 	return View::make('layout.base');
 });
 
+Route::get('/holi/boli', function(){
+	return View::make('holi.boli');
+});

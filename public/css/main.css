@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Candy Round BTN";
+	src: url('../fonts/candy-round-btn-cond.ttf');
+}
+
 .navbar-nav > li > a, .navbar-brand {
 	background-color: #D33B1F;
 	color: white;
@@ -16,4 +21,24 @@
 
 .navigation {
 	margin-top: 130px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-family: "Candy Round BTN";
+  font-size: 40px;
+}
+
+.home-icon {
+	background-color: #D33B1F;
+	color: white;
+	border: 1px solid;
+	font-size: 40px;
+}
+
+.home-icon > a {
+	background-color: #D33B1F;
+	color: white;
+	border: 1px solid;
+	font-size: 40px;
 }
