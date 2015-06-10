@@ -3,9 +3,11 @@
 	src: url('../fonts/candy-round-btn-cond.ttf');
 }
 
-.navbar-nav > li > a, .navbar-brand {
+
+.navbar-nav  > li > a, .navbar-brand {
 	background-color: #D33B1F;
 	color: white;
+
 }
 
 .logo-location {
@@ -18,27 +20,60 @@
 	padding-top: 80px;
 	max-width: 100%;
 }
+.footer1-location{
+	height: 1000px;
+}
+
+
+.footer1-footer {
+	max-width: 100%;
+	max-height: 110%;
+
+}
 
 .navigation {
 	margin-top: 130px;
 }
 
+.navbar-default{
+	background-color: #D33B1F;
+	border-color: #D33B1F;
+}
 .navbar-default .navbar-nav > li > a {
   color: white;
   font-family: "Candy Round BTN";
-  font-size: 40px;
+  font-size: 30px;
+  padding-left: 41px;
+  padding-right: 41px;
 }
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #00FF00;
+}
+.navbar-default .navbar-nav > li > a:focus {
+	color: #FFFF00;
+}
+
+.navbar-default .navbar-nav > li > a:active {
+	color: #00FFFF;
+}
+
+
 
 .home-icon {
 	background-color: #D33B1F;
 	color: white;
-	border: 1px solid;
+	/*border: 1px solid;*/
 	font-size: 40px;
 }
 
 .home-icon > a {
 	background-color: #D33B1F;
 	color: white;
-	border: 1px solid;
+	/*border: 1px solid;*/
 	font-size: 40px;
+}
+
+.navbar-default .home-icon > a:hover {
+	color: #00FF00;
 }
